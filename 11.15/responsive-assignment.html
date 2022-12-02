@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>
+            responsive assignment - breakpoints
+        </title>
+        
+        <style>
+            /* 1400 */
+            @media only screen and (min-width: 1400px) and (max-width:1600px) { 
+                body {
+                    background-color: rgb(220, 47, 75);
+                }
+                .text::after {
+                    content: " xxl (extra extra large) <= 1400px" ;
+                   margin: 200px auto;
+                
+                    
+                   
+                }
+            }
+
+
+
+
+           
+
+            /* 1200 */
+            @media only screen and (min-width: 1200px) and (max-width:1399px) { 
+                body {
+                    background-color: pink;
+                }
+                .text::after {
+                    content: " xl (extra large) => 1200px" ;
+                
+                    
+                   
+                }
+            }
+            /*  992*/
+            @media only screen and (min-width: 992px) and (max-width:1199px) { 
+                body {
+                    background-color: rgb(180, 68, 87);
+                }
+                .text::after {
+                    content: " lg (medium) => 992px" ;
+                   
+                    
+                   
+                }
+            }
+
+            /* 768 */
+            @media only screen and (min-width: 768px) and (max-width:991px) { 
+                body {
+                    background-color: rgb(15, 204, 68);
+                }
+                .text::after {
+                    content: " md (medium) => 768px" ;
+                    
+                    
+                   
+                }
+            }
+            /* 576 */
+            @media only screen and (min-width: 576px) and (max-width:766px) { 
+                body {
+                    background-color: rgb(226, 136, 47);
+                }
+                .text::after {
+                    content: " sm (small) => 576px" ;
+                   
+                    
+                   
+                }
+            }
+
+            /* 576 baga */
+               
+                @media only screen and (min-width: 360px) and (max-width:575px){ 
+                body {
+                    background-color: rgb(25, 15, 209);
+                    
+                }
+                .text::after {
+                    content: " sm (extra small) < 576px" ;
+                   
+                    
+                   
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-container" style="max-width: 1400px; height:800px; border: 1px solid black;" >
+            <div class="text" style="margin: 300px 300px;">
+
+            </div>
+        </div>
+
+    </body>
+</html>

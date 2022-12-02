@@ -1,0 +1,33 @@
+.box-container{
+    width: 600px;
+    height: 800px;
+    background-color: aqua;
+    border: 3px solid green;
+    margin: 150px auto;
+}
+
+
+.box1, .box2, .box3, .box4 {
+    height: 90px;
+    border: 2px solid green;
+    
+}
+
+.box5 {
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    
+  
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover {
+    height: 150px;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    transition: 3s;
+    cursor:pointer;
+}
+
+

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <title> Bootstrap form </title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container  border-1">
+            <div class="row-sm-3">
+                <div class="col text-center">
+                    <h2>
+                        Байгууллагын дотоод үйл ажиллагаанд зориулсан судалгаанд тавтай морил
+                    </h2>
+                </div>
+                <div class="col">
+
+                    <p> Ерөнхий мэдээлэл </p>
+                     
+                </div>
+                <form class="row needs-validation" novalidate="">
+                    <div class="col-md-6">
+                        <label for="lastname" class="form-label">Овог * </label>
+                   
+                        <input type="text" id="lastname" class="form-control">
+                        
+                        <label for="firstname" class="form-label">Нэр * </label>
+                       
+                        <input type="text" id="firstname" class="form-control">
+                        
+                        <label for="age" class="form-label">Нас * </label>
+                        <input type="text" id="age" class="form-control">
+                    </div>
+                  
+                    <div class="col-md-6">
+                        <label for="Aimag" class="form-label">Аймаг</label>
+                        
+                        <select name="Aimag" id="Aimag" class="form-select" id="Aimag" required=""> <br>
+                            <option selected="" disabled="" value="">Cонгох...</option> <br>
+                            <option>Улаанбаатар</option>
+                            <option>Дархан</option>
+                        </select>
+                       
+                        <label for="sum" class="form-label">Сум</label>
+                        
+                        <select name="sum" id="sum" class="form-select" id="sum" required=""> <br>
+                            <option selected="" disabled="" value="">Cонгох...</option> <br>
+                            <option>Баянзүрх</option>
+                            <option>Баянгол</option>
+
+                        </select>
+                        <label for="sum" class="form-label">Баг</label>
+                        
+                        <select name="bag" id="bag" class="form-select" id="bag" required=""> <br>
+                            <option selected="" disabled="" value="">Cонгох...</option> <br>
+                            <option>1-р хороо</option>
+                            <option>2-р хороо</option>
+
+                        </select>
+                    </div>
+                    
+                    <div class="col mt-2">
+                        <input class="btn btn-warning" type="button" value="Хадгалах">
+                    </div>
+                    
+                </form>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                    <h6> Хэсэг I</h6>
+            </div>
+            <div class="row needs-validation" novalidate="">
+                <div class="col-auto">
+                    <p>Үйл ажиллагаа 1 *</p>
+                </div>
+                <div class="col-auto">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row needs-validation" novalidate="">
+                <div class="col-auto">
+                    <p>Үйл ажиллагаа 2 *</p>
+                </div>
+                <div class="col-auto">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row needs-validation" novalidate="">
+                <div class="col-auto">
+                    <p>Үйл ажиллагаа 3 *</p>
+                </div>
+                <div class="col-auto">
+                    <input type="text" value="машин">
+                </div>
+            </div>
+            <div class="row needs-validation" novalidate="">
+                <div class="col-auto">
+                    <p>Үйл ажиллагаа 4 *</p>
+                </div>
+                <div class="form-check col-auto">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Тийм
+                    </label>
+                    
+                </div>
+                <div class="form-check col-auto">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Үгүй
+                    </label>
+                    
+                  </div>
+            </div>
+            <div class="row needs-validation" novalidate="">
+                <div class="col-auto">
+                    <p>Үйл ажиллагаа 5 *</p>
+                </div>
+                <div class="col-auto">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Шинэ жил
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" unchecked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Цагаан сар
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" unchecked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Наадам
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" unchecked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Хүүхдийн баяр
+                        </label>
+                      </div>
+                </div>
+            </div>
+            </div>
+            <div class="col mt-2">
+                <input class="btn btn-secondary" type="button" value="Хадгалах">
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <h6> Хэсэг II</h6>
+            </div>
+        
+        <form action="" class="row needs-validation" novalidate="">
+            <div class="row"> 
+            <div class="col-md-6 mb-2" >
+                <label for="name" class="form-label"></label>
+                    <input type="text" id="lastname" class="form-control" value="name">
+            </div>
+            <div class="col-md-6">
+                <label for="gender" class="form-label"></label>
+                    <input type="text" id="gender" class="form-control" value="gender">
+            </div>
+            
+         <div class="col-md-6">
+                <label for="firstname" class="form-label"></label>
+                    <input type="text" id="firsname" class="form-control" value="firsname">
+         </div>
+         <div class="col-md-6">
+            <label for="age" class="form-label"></label>
+                <input type="number" id="age" class="form-control" value="age">
+        </div>
+         </div>
+         <div class="row">
+           
+                <div class="col-md-6">
+                    <label for="city" class="form-label"></label>
+                    <input type="text" id="city" class="form-control" value="city">
+                </div>
+        <div class="col-md-3">
+            <label for="state" class="form-label"></label>
+            <input type="text" id="state" class="form-control" value="state">
+         </div>
+         <div class="col-md-2">
+            <label for="zip" class="form-label"></label>
+            <input type="number" id="zip" class="form-control" value="zip">
+         </div>
+        </div> 
+        <div class="col mt-2">
+            <input class="btn btn-primary" type="button" value="Хадгалах">
+        </div>
+        </form>
+</div>
+<hr>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h6>Хэсэг III</h6>
+            </div>
+           <div class="row">
+                <div class="col-md-2">
+                    <p>
+                        Ногоо
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>Сүүлийн 12 сард та [НЭР ТӨРӨЛ] ургац хураан авсан уу?</p>
+                </div>
+                <div class="col-md-2">
+                    <p> Өрхийн хэрэгцээнд хэрэглэсэн (D01)</p>
+                </div>
+                <div class="col-md-2">
+                    <p>
+                        малын тэжээлд зориулсан (D02)
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <p>
+                        Худалдсан (D02)
+                    </p>
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-md-2">
+                    <p>Төмс</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-check col-md-4">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Тийм
+                        </label> 
+                    </div>
+                    <div class="form-check col-md-4">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Үгүй
+                        </label> 
+                    </div>
+
+                </div>
+                <div class="col-md-2">
+                    <label for="D01" class="form-label"></label>
+                    <input type="text" id="D01" class="form-control" value="D01">
+                </div>
+                <div class="col-md-2">
+                    <label for="D02" class="form-label"></label>
+                    <input type="text" id="D02" class="form-control" value="D02">
+                </div>
+                <div class="col-md-2">
+                    <label for="D03" class="form-label"></label>
+                    <input type="text" id="D03" class="form-control" value="D03">
+                </div>
+                
+                
+            
+         </div>
+         <div class="row">
+            <div class="col-md-2">
+                <p>Байцаа</p>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check col-md-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Тийм
+                    </label> 
+                </div>
+                <div class="form-check col-md-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Үгүй
+                    </label> 
+                </div>
+                
+
+            </div>
+            <div class="col-md-2">
+                <label for="D01" class="form-label"></label>
+                <input type="text" id="D01" class="form-control" value="D01">
+            </div>
+            <div class="col-md-2">
+                <label for="D02" class="form-label"></label>
+                <input type="text" id="D02" class="form-control" value="D02">
+            </div>
+            <div class="col-md-2">
+                <label for="D03" class="form-label"></label>
+                <input type="text" id="D03" class="form-control" value="D03">
+            </div>
+
+         </div>
+         
+         <div class="row">
+            <div class="col-md-2">
+                <p>Лууван</p>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check col-md-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Тийм
+                    </label> 
+                </div>
+                <div class="form-check col-md-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Үгүй
+                    </label> 
+                </div>
+                
+
+            </div>
+            <div class="col-md-2">
+                <label for="D01" class="form-label"></label>
+                <input type="text" id="D01" class="form-control" value="D01">
+            </div>
+            <div class="col-md-2">
+                <label for="D02" class="form-label"></label>
+                <input type="text" id="D02" class="form-control" value="D02">
+            </div>
+            <div class="col-md-2">
+                <label for="D03" class="form-label"></label>
+                <input type="text" id="D03" class="form-control" value="D03">
+            </div>
+
+         </div>
+         <div class="col mt-2">
+            <input class="btn btn-success" type="button" value="Хадгалах">
+        </div>
+    </div>
+   </div> 
+</body>
+</html>
