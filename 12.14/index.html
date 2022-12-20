@@ -10,23 +10,49 @@
     <title>To do list</title>
 </head>
 <body>
+    <template id="taskTemplate">
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="text-center mb-4">Ажил 1</div>
+                <div class="text-center">
+                <button class="btn btn-secondary btn-sm">Edit</button>
+                <button class="btn btn-info btn-sm">Save</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+                </div>
+            </div>
+        </div>
+    </template>
     <div class="container" style="max-width: 500px; height: 800px; background-color:rgb(188, 185, 185);">
         <h1 style="color:rgba(4, 4, 157, 0.566); font-size: 60 px; text-align: center; padding: 10px;">
             Ажлын жагсаалт
         </h1>
         <div class="row mb-4">
-            <input id="" class="form-control col me-2 mt-1 ms-1" type="text" placeholder="Шинэ ажил...">
+            <input id="TaskInput" class="form-control col me-2 mt-1 ms-1" type="text" placeholder="Шинэ ажил...">
             <button class="btn btn-primary col-4 mt-1 ms-1" onclick="addTask()">Нэмэх</button>
 
         </div>
         <hr>
-        <div class="card mb-4">
-
-            
+        <div id="taskList">
+        
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="text-center mb-4">Ажил 2</div>
+                    <div class="text-center">
+                    <button class="btn btn-secondary btn-sm">Edit</button>
+                    <button class="btn btn-info btn-sm">Save</button>
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                    </div>
+                </div>
+                
+            </div>
         </div>
+        
         
    
         
      </div>
-</body>  
+<script src="./JS/main.js">
+
+</script>
+    </body>  
 </html>
